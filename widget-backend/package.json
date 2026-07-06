@@ -1,0 +1,18 @@
+{
+  "name": "ai-sales-engine-widget-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend proxy that keeps the Gemini API key server-side for the embeddable chat widget.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
